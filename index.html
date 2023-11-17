@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="cs.css">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .box{
+            border: 1px solid black;
+            width: 32%;
+            height: 200px;
+            display: inline-block;
+        }
+    </style>
 </head>
 <body>
-    <p class="article-title">YouTube</p>
-    <p class="Time-stats">3 years ago</p>
-    <img class="thumbnail" src="915f70a1b32c7d412232e14840e00d92.jpg"><br>
-    <img class="gg" src="czgYrPLQ_400x400.jpg"><br>
-    <p class="Author">Travis Scott</p>
-    <p class="Description">Travis Scott - HIGHEST IN THE ROOM (Official Music Video)<p>
-    <p class="cb"> 16.5M Subscribers</p>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <script src="index.js"></script>
+    <select name="" id="color">
+        <option value="">red</option>
+        <option value="">blue</option>
+        <option value="">green</option>
+    </select>
+    <input type="text" id="selection">
+    <button onclick="Submit()">Submit</button>
+    <script src="index.js"></script>
+
 </body>
 </html>
+

@@ -1,11 +1,5 @@
-const signUpButton = document.getElementById('signUp');
-const signInButton = document.getElementById('signIn');
-const container = document.getElementById('container');
-
-signUpButton.addEventListener('click', () => {
-	container.classList.add("right-panel-active");
-});
-
-signInButton.addEventListener('click', () => {
-	container.classList.remove("right-panel-active");
-});
+function Submit(){
+    let color = document.getElementById("color").value;
+    let box = document.getElementById("selection").value;
+    document.getElementById("box" + box).style
+}
